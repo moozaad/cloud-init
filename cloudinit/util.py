@@ -668,7 +668,7 @@ def system_info():
             var = 'ubuntu'
         elif linux_dist == 'redhat':
             var = 'rhel'
-        elif linux_dist in ('opensuse', 'sles'):
+        elif linux_dist in ('opensuse','opensuse-leap','opensuse-tumbleweed', 'sles'):
             var = 'suse'
         else:
             var = 'linux'
